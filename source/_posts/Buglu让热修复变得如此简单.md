@@ -301,11 +301,11 @@ Activity配置
 
   点击Android Studio右上角的Gradle按钮，找到项目的assembleRelease任务，双击执行assembleRelease任务。
 
-![新浪图片](http://s.img.mix.sina.com.cn/auto/resize?size=250_0&img=http%3A%2F%2Fsinastorage.com%2Fstorage.zone.photo.sina.com.cn%2Fzone%2F1000_0%2F20180503%2Faf1c95145a34f2e17bdaa730771b2595_4160_3120.jpg%3F%26ssig%3DddXIoPtlMQ%26KID%3Dsina%2Cslidenews%26Expires%3D1525349882)
+![](http://p8dyct59i.bkt.clouddn.com/1.png)
 
    任务执行完成后，会在build的目录下生成如下文件：
 
-![](https://github.com/zhiweiAndroid/Buglytinker/blob/master/demopicture/2.png)
+![](http://p8dyct59i.bkt.clouddn.com/2.png)
 
 ***
 
@@ -355,17 +355,17 @@ Activity配置
 
 修改appName名称以及文件名称都需要保持一致。同时将基准包的tinkerid=1.0.0-base改为补丁包的tinkerid=1.0.0-patch。
 
-![](https://github.com/zhiweiAndroid/Buglytinker/blob/master/demopicture/3.png)
+![](http://p8dyct59i.bkt.clouddn.com/3.png)
 
 生成补丁包
 
  执行生成补丁包的任务操作,任务执行完之后，会生成3个文件，其中patch_signed_7zip.apk是我们需要的补丁包
 
-![](https://github.com/zhiweiAndroid/Buglytinker/blob/master/demopicture/4.png)
+![](http://p8dyct59i.bkt.clouddn.com/4.png)
 
    生成patch_signed_7zip.apk包后,点击检测版本
 
-![](https://github.com/zhiweiAndroid/Buglytinker/blob/master/demopicture/5.png)
+![](http://p8dyct59i.bkt.clouddn.com/5.png)
 
 ### 将补丁包上传至bugly的应用升级模块的热更新中
 
