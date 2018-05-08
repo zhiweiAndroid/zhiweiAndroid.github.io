@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f4ffc9;
+  background: #736e5d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2905,7 +2905,7 @@ hr {
   }
 }
 body {
-  background: url("/images/fish.jpg");
+  background: url("http://p8dyct59i.bkt.clouddn.com/fish.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
