@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1481ff;
+  background: #f4ffc9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2905,9 +2905,20 @@ hr {
   }
 }
 body {
-  background: url("http://p8dyct59i.bkt.clouddn.com/cj1.jpg");
+  background: url("/images/fish.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+}
+.main-inner {
+  opacity: 0.8;
+}
+.post-body p a {
+  color: #0593d3;
+  border-bottom: none;
+}
+.post-body p a:hover {
+  color: #0477ab;
+  text-decoration: underline;
 }
